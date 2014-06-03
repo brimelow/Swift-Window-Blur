@@ -10,16 +10,16 @@
 		60E34D5E193E8DC600D7C692 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E34D5D193E8DC600D7C692 /* main.swift */; };
 		60E34D60193E8DC600D7C692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E34D5F193E8DC600D7C692 /* AppDelegate.swift */; };
 		60E34D62193E8DC600D7C692 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E34D61193E8DC600D7C692 /* Images.xcassets */; };
-		60E34D65193E8DC600D7C692 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E34D63193E8DC600D7C692 /* MainMenu.xib */; };
+		60E34D80193E92D200D7C692 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E34D7E193E92D200D7C692 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60E34D58193E8DC600D7C692 /* Swift Window Blur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Window Blur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60E34D5C193E8DC600D7C692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60E34D5D193E8DC600D7C692 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		60E34D5F193E8DC600D7C692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60E34D61193E8DC600D7C692 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		60E34D64193E8DC600D7C692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		60E34D5C193E8DC600D7C692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Swift Window Blur/Info.plist"; sourceTree = SOURCE_ROOT; };
+		60E34D5D193E8DC600D7C692 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = "Swift Window Blur/main.swift"; sourceTree = SOURCE_ROOT; };
+		60E34D5F193E8DC600D7C692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Swift Window Blur/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		60E34D61193E8DC600D7C692 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Swift Window Blur/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		60E34D7F193E92D200D7C692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Swift Window Blur/Base.lproj/MainMenu.xib"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 		60E34D4F193E8DC600D7C692 = {
 			isa = PBXGroup;
 			children = (
-				60E34D5A193E8DC600D7C692 /* BlurryBackground */,
+				60E34D5A193E8DC600D7C692 /* Swift Window Blur */,
 				60E34D59193E8DC600D7C692 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,14 +49,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60E34D5A193E8DC600D7C692 /* BlurryBackground */ = {
+		60E34D5A193E8DC600D7C692 /* Swift Window Blur */ = {
 			isa = PBXGroup;
 			children = (
 				60E34D5F193E8DC600D7C692 /* AppDelegate.swift */,
 				60E34D61193E8DC600D7C692 /* Images.xcassets */,
-				60E34D63193E8DC600D7C692 /* MainMenu.xib */,
+				60E34D7E193E92D200D7C692 /* MainMenu.xib */,
 				60E34D5B193E8DC600D7C692 /* Supporting Files */,
 			);
+			name = "Swift Window Blur";
 			path = BlurryBackground;
 			sourceTree = "<group>";
 		};
@@ -127,7 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60E34D62193E8DC600D7C692 /* Images.xcassets in Resources */,
-				60E34D65193E8DC600D7C692 /* MainMenu.xib in Resources */,
+				60E34D80193E92D200D7C692 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,10 +147,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		60E34D63193E8DC600D7C692 /* MainMenu.xib */ = {
+		60E34D7E193E92D200D7C692 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60E34D64193E8DC600D7C692 /* Base */,
+				60E34D7F193E92D200D7C692 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -239,7 +240,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = BlurryBackground/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Swift Window Blur/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "Swift Window Blur";
 			};
@@ -250,7 +251,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = BlurryBackground/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Swift Window Blur/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "Swift Window Blur";
 			};
@@ -275,6 +276,7 @@
 				60E34D76193E8DC600D7C692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

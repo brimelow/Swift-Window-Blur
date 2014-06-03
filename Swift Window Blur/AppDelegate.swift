@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  BlurryBackground
+//  Swift Window Blur
 //
 //  Created by Lee Brimelow on 6/3/14.
 //  Copyright (c) 2014 Lee Brimelow. All rights reserved.
