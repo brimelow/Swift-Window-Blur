@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60E34D5E193E8DC600D7C692 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E34D5D193E8DC600D7C692 /* main.swift */; };
+		60E34D60193E8DC600D7C692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E34D5F193E8DC600D7C692 /* AppDelegate.swift */; };
+		60E34D62193E8DC600D7C692 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E34D61193E8DC600D7C692 /* Images.xcassets */; };
+		60E34D65193E8DC600D7C692 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E34D63193E8DC600D7C692 /* MainMenu.xib */; };
+		60E34D71193E8DC600D7C692 /* BlurryBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E34D70193E8DC600D7C692 /* BlurryBackgroundTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60E34D6B193E8DC600D7C692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60E34D50193E8DC600D7C692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60E34D57193E8DC600D7C692;
+			remoteInfo = BlurryBackground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60E34D58193E8DC600D7C692 /* BlurryBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurryBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E34D5C193E8DC600D7C692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E34D5D193E8DC600D7C692 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		60E34D5F193E8DC600D7C692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60E34D61193E8DC600D7C692 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60E34D64193E8DC600D7C692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		60E34D6A193E8DC600D7C692 /* BlurryBackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurryBackgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E34D6F193E8DC600D7C692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E34D70193E8DC600D7C692 /* BlurryBackgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurryBackgroundTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60E34D55193E8DC600D7C692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E34D67193E8DC600D7C692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60E34D4F193E8DC600D7C692 = {
+			isa = PBXGroup;
+			children = (
+				60E34D5A193E8DC600D7C692 /* BlurryBackground */,
+				60E34D6D193E8DC600D7C692 /* BlurryBackgroundTests */,
+				60E34D59193E8DC600D7C692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60E34D59193E8DC600D7C692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60E34D58193E8DC600D7C692 /* BlurryBackground.app */,
+				60E34D6A193E8DC600D7C692 /* BlurryBackgroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E34D5A193E8DC600D7C692 /* BlurryBackground */ = {
+			isa = PBXGroup;
+			children = (
+				60E34D5F193E8DC600D7C692 /* AppDelegate.swift */,
+				60E34D61193E8DC600D7C692 /* Images.xcassets */,
+				60E34D63193E8DC600D7C692 /* MainMenu.xib */,
+				60E34D5B193E8DC600D7C692 /* Supporting Files */,
+			);
+			path = BlurryBackground;
+			sourceTree = "<group>";
+		};
+		60E34D5B193E8DC600D7C692 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60E34D5C193E8DC600D7C692 /* Info.plist */,
+				60E34D5D193E8DC600D7C692 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60E34D6D193E8DC600D7C692 /* BlurryBackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				60E34D70193E8DC600D7C692 /* BlurryBackgroundTests.swift */,
+				60E34D6E193E8DC600D7C692 /* Supporting Files */,
+			);
+			path = BlurryBackgroundTests;
+			sourceTree = "<group>";
+		};
+		60E34D6E193E8DC600D7C692 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60E34D6F193E8DC600D7C692 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60E34D57193E8DC600D7C692 /* BlurryBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E34D74193E8DC600D7C692 /* Build configuration list for PBXNativeTarget "BlurryBackground" */;
+			buildPhases = (
+				60E34D54193E8DC600D7C692 /* Sources */,
+				60E34D55193E8DC600D7C692 /* Frameworks */,
+				60E34D56193E8DC600D7C692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurryBackground;
+			productName = BlurryBackground;
+			productReference = 60E34D58193E8DC600D7C692 /* BlurryBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60E34D69193E8DC600D7C692 /* BlurryBackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E34D77193E8DC600D7C692 /* Build configuration list for PBXNativeTarget "BlurryBackgroundTests" */;
+			buildPhases = (
+				60E34D66193E8DC600D7C692 /* Sources */,
+				60E34D67193E8DC600D7C692 /* Frameworks */,
+				60E34D68193E8DC600D7C692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60E34D6C193E8DC600D7C692 /* PBXTargetDependency */,
+			);
+			name = BlurryBackgroundTests;
+			productName = BlurryBackgroundTests;
+			productReference = 60E34D6A193E8DC600D7C692 /* BlurryBackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60E34D50193E8DC600D7C692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Lee Brimelow";
+				TargetAttributes = {
+					60E34D57193E8DC600D7C692 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					60E34D69193E8DC600D7C692 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 60E34D57193E8DC600D7C692;
+					};
+				};
+			};
+			buildConfigurationList = 60E34D53193E8DC600D7C692 /* Build configuration list for PBXProject "BlurryBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60E34D4F193E8DC600D7C692;
+			productRefGroup = 60E34D59193E8DC600D7C692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60E34D57193E8DC600D7C692 /* BlurryBackground */,
+				60E34D69193E8DC600D7C692 /* BlurryBackgroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60E34D56193E8DC600D7C692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E34D62193E8DC600D7C692 /* Images.xcassets in Resources */,
+				60E34D65193E8DC600D7C692 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E34D68193E8DC600D7C692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60E34D54193E8DC600D7C692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E34D60193E8DC600D7C692 /* AppDelegate.swift in Sources */,
+				60E34D5E193E8DC600D7C692 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E34D66193E8DC600D7C692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E34D71193E8DC600D7C692 /* BlurryBackgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60E34D6C193E8DC600D7C692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60E34D57193E8DC600D7C692 /* BlurryBackground */;
+			targetProxy = 60E34D6B193E8DC600D7C692 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60E34D63193E8DC600D7C692 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60E34D64193E8DC600D7C692 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60E34D72193E8DC600D7C692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60E34D73193E8DC600D7C692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		60E34D75193E8DC600D7C692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BlurryBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60E34D76193E8DC600D7C692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BlurryBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60E34D78193E8DC600D7C692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurryBackground.app/Contents/MacOS/BlurryBackground";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlurryBackgroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		60E34D79193E8DC600D7C692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurryBackground.app/Contents/MacOS/BlurryBackground";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlurryBackgroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60E34D53193E8DC600D7C692 /* Build configuration list for PBXProject "BlurryBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E34D72193E8DC600D7C692 /* Debug */,
+				60E34D73193E8DC600D7C692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E34D74193E8DC600D7C692 /* Build configuration list for PBXNativeTarget "BlurryBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E34D75193E8DC600D7C692 /* Debug */,
+				60E34D76193E8DC600D7C692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60E34D77193E8DC600D7C692 /* Build configuration list for PBXNativeTarget "BlurryBackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E34D78193E8DC600D7C692 /* Debug */,
+				60E34D79193E8DC600D7C692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60E34D50193E8DC600D7C692 /* Project object */;
+}
